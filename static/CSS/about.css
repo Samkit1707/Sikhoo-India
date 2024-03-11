@@ -1,0 +1,142 @@
+body {
+	background-image: url('9.jpg');
+	background-size: cover;
+	background-position: center;
+}
+header {
+	height: 50vh;
+	/* background: #000; */
+}
+.black {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	top: 0;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	z-index: 1000;
+	background: #bbbbbb;
+	justify-content: space-around;
+	transition: 1.5s;
+	align-items: center;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav ul li {
+	list-style: none;
+	margin: 5px 10px;
+}
+nav ul li a {
+	padding: 2px 10px;
+	color: #2e2e2e;
+	cursor: pointer;
+	transition: .5s;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #fff;
+	border-radius: 5px;
+	background: #7c7a7b;
+}
+.active {
+	color: #ffffff;
+	border-radius: 5px;
+	background: #1d1d1d;
+}
+.srch {
+	padding: 2px 10px;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	/* background: #0066ff; */
+	border: 1px solid;
+	border-radius: 20px;
+}
+.srch img {
+	width: 25px;
+	cursor: pointer;
+}
+.srch .search {
+	/* padding: 2px 10px; */
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+.get-started {
+	margin-left: 50px;
+	padding: 5px 20px;
+	border: 2px solid #DF2771;
+	border-radius: 20px;
+	text-decoration: none;
+	
+	transition: .5s;
+	background-color: #DF2771;
+	color: #fff;
+}
+.get-started:hover {
+	color: #2e2e2e;
+	background: #fff;
+}
+.logo img{
+	width: 120px;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+a, button {
+	float: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #2E3D49;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+.head-container {
+	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.quote {
+	width: 600px;
+	transform: translateY(-50px);
+}
+
+.quote .play img {
+	width: 45px;
+	cursor: pointer;
+	filter: drop-shadow(0 0 10px #0002);
+}
+.quote .play span a{
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: 900;
+	color: rgba(0, 0, 0, 0.8);
+	cursor: pointer;
+}
+
+.transparent-box {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.contact-heading {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.contact-info {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
